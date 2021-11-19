@@ -1,0 +1,27 @@
+.title {
+    color: #fff;
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 4em;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.headerText {
+    font-size: 18px;
+}
+
+.headerTextTwo {
+    padding-top: 2px;
+}
+

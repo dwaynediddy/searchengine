@@ -1,12 +1,13 @@
 import React from 'react'
+import '../style/trending.css'
 
-const Trending = 'popular images trending'
+const TrendingText = ' popular images trending'
 
 const Trending = () => {
     return (
-        <div>
-            <span>Trending: </span>
-            {Trending}
+        <div className='trending'>
+            <span>Trending:  </span>
+            {TrendingText}
         </div>
     )
 }

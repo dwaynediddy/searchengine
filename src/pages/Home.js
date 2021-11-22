@@ -20,7 +20,7 @@ const Home = () => {
         }, [])
 
     return (
-        <div>
+        <div className="App">
             <Search placeholder="  Search free high-resolution photos"
             //need this data to come from the api
             data={userData} />
